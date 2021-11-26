@@ -7,6 +7,7 @@ public abstract class Moule implements IPouvoir {
                 private int pointdevie;
                 private int endurance;
                 private int experience;
+                
 
                public Moule (  String nom, int age, int taille, int pointdevie, int endurance, int experience)  {
                     this.nom = nom ;

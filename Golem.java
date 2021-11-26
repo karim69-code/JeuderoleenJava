@@ -50,7 +50,7 @@ public  class Golem extends Moule {
       
       
         golem.setpointdevie(golem.getpointdevie()-20);
-       System.out.println(" il vous reste  " + golem.getpointdevie() + " a votre personnage");
+       System.out.println(" il vous reste maintenant  " + golem.getpointdevie() + " a votre personnage");
 
     }
     public void ecrasementdupied() {

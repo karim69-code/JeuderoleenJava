@@ -46,7 +46,7 @@ public  class Mage extends Moule {
         }
         public  void sortilegedesanciens(Moule mage) {
             mage.setpointdevie(mage.getpointdevie()-10);
-           System.out.println(" il vous reste  " + mage.getpointdevie() + " a votre personnage");
+           System.out.println(" il vous reste desormais plus que  " + mage.getpointdevie() + " a votre personnage");
 
         }
 

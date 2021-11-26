@@ -62,15 +62,30 @@ public  class Chevalier extends Moule {
         public void protectiondeviecosmique(int degats) {
             
             
-             
+            
+            if (this.getpointdevie()< 0) {
+                System.out.println("desole votre personnage est dans l'au dela");
+              return;
+            }
+            
             //ici je fais en sorte de stocker que qd je passe en parametre un
             //nombre je recupere celui ci dans la variable degats
-            this.setpointdevie(this.getpointdevie()+ degats);
-            System.out.println(this.getpointdevie());
-            
-           
-               
+            this.setpointdevie(this.getpointdevie()+ degats);//-40
+            System.out.println(this.getpointdevie());//tu m affiche sur la console la totalite des points de vie restant
               }
+              
+
+              public void masterlife(int vie) {
+            
+            
+            this.setpointdevie(this.getpointdevie()+vie);
+            System.out.println("bravo votre chevalier a eu une guerison specifique il vient d'augmenter ces point de vies a " + this.getpointdevie());
+            
+               
+                }
+               
+             
+            
         
 
     

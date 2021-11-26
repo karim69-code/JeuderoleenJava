@@ -22,8 +22,8 @@ public  class Archer extends Moule {
            
             
             System.out.println("attention cette archer  viens de  doubler les degats avec son arc il vous reste  " + archer.getpointdevie() + " a votre personnage");
-            archer.setpointdevie(archer.getpointdevie()-10);
-            archer.setpointdevie(archer.getpointdevie()-10);
+            archer.setpointdevie(archer.getpointdevie()-15);
+            archer.setpointdevie(archer.getpointdevie()-15);
             
             return 20; 
            
@@ -65,7 +65,7 @@ public  class Archer extends Moule {
    
        }
        public void protectiondeviecosmique(int degats) {
-
+        
             //ici je fais en sorte de stocker que qd je passe en parametre un
             //nombre je recupere celui ci dans la variable degats
             this.setpointdevie(this.getpointdevie()+ degats/2);
@@ -74,9 +74,9 @@ public  class Archer extends Moule {
 
    
        }
-       public void pertepointsdevie() {
+       public void pertepointsdevie(int pointdevie) {
          // this.setpointdevie(this.getpointdevie()-60);
-   
+  
     }
 
    
